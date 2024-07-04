@@ -1,0 +1,22 @@
+{
+    "name": "Броня небеского искателя",
+    "icon": "naturesaura:sky_chest",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Ботаники могут почувствовать себя богами, надев $(thing)броню небесного искателя$(). Она не только может быть отремонтирована, как ее $(l:items/infused_iron_armor)наполненый аналог$(), но и предоставляет $(thing)бонус набора$(): Если надеть все части доспеха (или поменять нагрудник на $(item)Элитры$()), $(thing)скорость передвижения$() владельца увеличится. Кроме того, повышается способность $(thing)забираться$() на блоки, что избавляет его от необходимости часто прыгать."
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:sky_helmet",
+            "recipe2": "naturesaura:sky_chest"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:sky_pants",
+            "recipe2": "naturesaura:sky_shoes"
+        }
+    ]
+}

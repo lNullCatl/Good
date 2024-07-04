@@ -1,0 +1,62 @@
+{
+    "name": "Подношение богам",
+    "icon": "naturesaura:offering_table",
+    "category": "naturesaura:practices",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)Наполненное железо$() - это хорошо, и у него достаточно природной силы, чтобы делать из него множество вещей. Но для более совершенных механизмов требуется более мощный металл. Для этого и для многого другого требуется $(item)Подношение богам$().$(br)Боги долгое время были самыми сильными и могущественными существами, и, как таковые, обладают самыми сильными металлами, известными человеку."
+        },
+        {
+            "type": "text",
+            "text": "Чтобы создать способ обращения к самим богам, просто поставьте на $(item)Стол для подношений$() с цветами вокруг него, как показано на следующей странице. Затем, чтобы начать подношение, положите любое количество предметов, которые вы хотите предложить, в чашу на столе, а затем бросьте предмет, который призовет самих богов, в большинстве случаев это $(item)Дух призыва$(), рядом со столом.$(br)После этого, если повезет, просимые предметы прольются с неба дождём."
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:offering_table",
+            "text": "Подготовьте $(item)Подношение Богам$(). Можно использовать любой цветок."
+        },
+        {
+            "type": "crafting",
+            "text": "Создание $(item)Стол подношения$()",
+            "recipe": "naturesaura:offering_table"
+        },
+        {
+            "type": "crafting",
+            "text": "Cоздание $(item)Дух призыва$()",
+            "recipe": "naturesaura:calling_spirit"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "Просите $(item)Слиток небес$(), мощный металл, пронизанный божественной энергией.",
+            "recipe": "naturesaura:sky_ingot"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "Просите $(item)Слиток небес$() using $(item)Искаженное золото$() дает более высокий результат.",
+            "recipe": "naturesaura:sky_ingot_from_gold"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "Обменяйте $(item)знак радости$() на гораздо более сильную версию - $(item)знак эйфории$()",
+            "recipe": "naturesaura:token_euphoria"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "Обменяйте $(item)знак страха$() на гораздо более сильную версию - $(item)знак террора$()",
+            "recipe": "naturesaura:token_terror",
+            "anchor": "terror"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "Обменяйте $(item)знак гнева$() на гораздо более сильную версию - $(item)Знак ярости$()",
+            "recipe": "naturesaura:token_rage"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "Обменяйте $(item)знак скорби$() на гораздо более сильную версию - $(item)знак горя$()",
+            "recipe": "naturesaura:token_grief"
+        }
+    ]
+}

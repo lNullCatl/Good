@@ -1,0 +1,17 @@
+{
+    "name": "Багровое перерождение",
+    "icon": "naturesaura:nether_grass",
+    "category": "naturesaura:effects",
+    "advancement": "naturesaura:positive_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Как уже говорилось в главе о $(l:effects/plant_boost)Рост растительности$(), избыток $(#419600)ауры$() может переходить в растения и тому подобное. Аналогичный эффект можно наблюдать и в $(thing)Незере$(): Если уровень $(#419600)ауры$() достаточно высок, $(item)трава$() начнет расти поверх всего $(item)незерака$() в округе."
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:nether_grass_powder",
+            "text": "Этот эффект можно подавить с помощью $(l:effects/effect_powder)Порошока Баррена$()."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Доспехи стража душ",
+    "icon": "naturesaura:depth_chest",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:depth_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Надев $(item)доспехи стража душ$(), магический ботаник может почувствовать, как в нем бурлит темная энергия. Хотя эти доспехи можно ремонтировать, как и их аналоги $(l:items/sky_armor)$(), они также дают $(item)бонус за набор$(): Если надеть все части доспехов (или поменять нагрудник на $(item)Элитры$()), то при ударе доспехи заставляют всех ближайших врагов на несколько секунд приковаться к земле, в результате чего они $(thing)стоят совершенно неподвижно$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:depth_helmet",
+            "recipe2": "naturesaura:depth_chest"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:depth_pants",
+            "recipe2": "naturesaura:depth_shoes"
+        }
+    ]
+}

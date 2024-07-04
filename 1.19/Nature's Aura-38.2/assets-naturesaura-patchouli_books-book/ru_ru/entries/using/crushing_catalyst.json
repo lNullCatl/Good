@@ -1,0 +1,67 @@
+{
+    "name": "Разрушающий катализатор",
+    "icon": "naturesaura:crushing_catalyst",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(l:using/altar)Природный алтарь$() может быть полезен для наделения некоторых предметов силой $(#419600)ауры$(), но его также можно использовать для $(thing)измельчения$() определенных предметов в различные формы.$(br)Этого можно достичь, создав $(item)Разрушающий катализатор$() и поместив его поверх любого из четырех нижних блоков $(item)Золотых каменных кирпичей$() вокруг алтаря, а затем поместив ингредиент на алтарь, как обычно."
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "text": "Создайте $(item)Разрушающий катализатор$(), используя $(l:practices/tree_ritual)Ритуал леса$().",
+            "recipe": "naturesaura:crushing_catalyst"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Создайте $(предмет)Костную муку$(), измельчив $(предмет)Кости$()",
+            "recipe": "naturesaura:bone"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Извликите $(item) Сахар$() путем извлечения его из тростника",
+            "recipe": "naturesaura:sugar"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Изготовление $(item)Огненный порошок$() из материалов Незера",
+            "recipe": "naturesaura:blaze"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Создание $(item)Светокаменной пыли$() путем разрушения $(item)Светокамня$()",
+            "recipe": "naturesaura:glowstone"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Получение $(item)Песка$() при дроблении $(item)Булыжника$()",
+            "recipe": "naturesaura:sand"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Изготовление $(item)Золотого порошка$() из $(item)Золотых листьев$()",
+            "recipe": "naturesaura:gold_powder"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Измельчения $(item)Аметистовых блоков$() до $(item)осколков$()",
+            "recipe": "naturesaura:amethyst"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Превращение $(item)Плотной грязи$() обратно в $(item)Грязь$()",
+            "recipe": "naturesaura:mud"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Извлечения $(item)Незерского нароста$() из $(item)Блоков незерских наростов$()",
+            "recipe": "naturesaura:nether_wart_crushing"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Превращение $(item)Почвы душ$() в $(item) Песок душ$()",
+            "recipe": "naturesaura:soul_sand_crushing"
+        }
+    ]
+}
